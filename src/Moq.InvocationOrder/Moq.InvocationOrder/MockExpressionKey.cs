@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq.Expressions;
-using yesmarket.Linq.Expressions;
 
 namespace Moq.InvocationOrder
 {
@@ -30,7 +29,7 @@ namespace Moq.InvocationOrder
             Expression = expression;
         }
 
-        private static ExpressionEqualityComparer equalityComparer = new ExpressionEqualityComparer();
+        private static ExpressionComparer equalityComparer = new ExpressionComparer();
 
         /// <summary>
         /// Gets the mock.

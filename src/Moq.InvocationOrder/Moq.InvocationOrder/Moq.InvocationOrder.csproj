@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExpressionComparer.cs" />
     <Compile Include="ExpressionInvocationLogger.cs" />
     <Compile Include="MockExpressionKey.cs" />
     <Compile Include="MockInvocationOrder.cs" />

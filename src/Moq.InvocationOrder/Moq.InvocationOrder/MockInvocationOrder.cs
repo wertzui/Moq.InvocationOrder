@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Moq.InvocationOrder;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Moq.InvocationOrder
+namespace Moq
 {
     /// <summary>
     /// Stores information about the invocation order of all mocks that used this instance in their setup.

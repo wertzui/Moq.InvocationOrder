@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Moq.InvocationOrder</id>
+    <version>2.0.0</version>
+    <title>Moq.InvocationOrder</title>
+    <authors>wertzui</authors>
+    <owners>wertzui</owners>
+    <licenseUrl>https://raw.githubusercontent.com/wertzui/Moq.InvocationOrder/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/wertzui/Moq.InvocationOrder</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains Extensions to verify the order of invocation on mocks.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Moq Mock Sequence Invocation Order</tags>
+  </metadata>
+</package>

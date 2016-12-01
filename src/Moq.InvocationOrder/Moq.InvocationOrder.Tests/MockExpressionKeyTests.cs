@@ -45,5 +45,19 @@ namespace Moq.InvocationOrder.Tests
             // Assert
             Assert.IsTrue(containsKey);
         }
+
+        [TestMethod]
+        public void Key_with_It_equals_itself()
+        {
+            // Arrange
+            Expression<Func<object, bool>> expr = o => o.Equals(It.IsAny<object>());
+            var key = new MockExpressionKey(new Mock<object>(), expr);
+
+            // Act
+            var equalsSelf = key.Equals(key);
+
+            // Assert
+            Assert.IsTrue(equalsSelf);
+        }
     }
 }
